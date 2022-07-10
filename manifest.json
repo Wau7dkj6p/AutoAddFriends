@@ -1,0 +1,16 @@
+﻿{
+	"manifest_version": 2,
+	"name": "AutoAddFriends",
+	"description": "Расширение для накрутки друзей",
+	"version": "0.0.5",
+	"icons": {"128": "icon_b.png"},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+    "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+	"permissions": ["activeTab", "tabs", "<all_urls>"]
+}
